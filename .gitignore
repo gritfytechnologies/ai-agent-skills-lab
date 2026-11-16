@@ -1,0 +1,23 @@
+# Secrets and local credentials — never commit these
+.env
+credentials.json
+token.json
+client_secret*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Local databases and data
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
